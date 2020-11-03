@@ -1,0 +1,24 @@
+\documentclass{article}
+
+\usepackage[heading = true]{ctex}
+\usepackage{geometry}
+
+\ctexset{
+    today = small,
+}
+
+\geometry{a4paper, left=3.17cm, right=3.17cm, top=2.54cm, bottom=2.54cm}
+
+
+\begin{document}
+
+%封面，可以在 content/titlepage.tex 修改相关信息
+\input{content/titlepage.tex}
+
+%目录，注释掉下行即不生成目录
+\tableofcontents
+\newpage
+
+\input{content/introduction.tex}
+
+\end{document}

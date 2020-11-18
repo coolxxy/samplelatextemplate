@@ -3,6 +3,14 @@
 \usepackage[heading = true]{ctex}
 \usepackage{geometry}
 
+% 代码排版，默认适用 listings 并设置为等宽字体
+% minted 宏包默认的效果会好看一点，但是需要安装 python 和 pygments 包并额外配置，所以这里未使用。
+\usepackage{listings}
+\usepackage{color}
+\lstset{
+    basicstyle=\ttfamily
+}
+
 \ctexset{
     today = small,
 }
